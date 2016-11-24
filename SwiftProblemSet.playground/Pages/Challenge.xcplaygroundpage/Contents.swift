@@ -12,7 +12,7 @@ var sum = 0
 for string in array {
     if Int(string) != nil {//the return value of Int() is "Int?", if the argument for Int() is not a number, it returns nil
         let intToAdd = Int(string)!//unwrappe the optional value
-        sum += intToAdd
+        sum += intToAdd//Implicit unwrapped
     }
 }
 print(sum)

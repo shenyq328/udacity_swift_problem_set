@@ -15,8 +15,8 @@
  */
 var gallonsRemainingInTank: Double
 var ageOfSpecimenInWeeks: Int
-var birthplace: String
-var myFirstProgrammingLanguage: String
+let birthplace: String
+let myFirstProgrammingLanguage: String
 //: ### Exercise 2
 //: Make the minimal changes necessary to fix the following compiler errors related to assignment, variables, and constants.
 var favoriteLanguage: String = "Swift"
